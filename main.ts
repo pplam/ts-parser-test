@@ -7,8 +7,7 @@ class Example
   return {sum};
  }
 
- bar(a: number, b: number) : {sub: number} 
- {
+ bar(a: number, b: number) : {sub: number} {
   let sub: number = a;
   sub -= b
   return {sub};
