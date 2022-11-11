@@ -1,5 +1,6 @@
 class Example {
- foo(a: number, b: number) : Record<string, number> {
+ foo(a: number, b: number) : Record<string, number> 
+ {
   let sum: number = a;
   sum += b;
   return {sum};
